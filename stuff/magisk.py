@@ -7,7 +7,7 @@ from tools.helper import bcolors, download_file, host, print_color, run, get_dow
 
 class Magisk(General):
     download_loc = get_download_dir()
-    dl_link = "https://gitee.com/h1335344215/magisk-alpha/releases/download/c44e2d30-delta/Magisk-c44e2d30-delta(25206).apk"
+    dl_link = "https://github.com/ltlly/redroid-script/releases/download/magisk/Magisk+Delta+25206+canary+.4dbd8358.apk"
     dl_file_name = os.path.join(download_loc, "magisk.apk")
     act_md5 = "f67530ebd058a0c5415b2dc80bf16bf9"
     extract_to = "/tmp/magisk_unpack"

@@ -1,3 +1,16 @@
+# 省流版
+
+python3 ./redroid.py -a 15.0.0_64only -m
+
+然后docker启动后  设置里面开zygisk 重启即可
+
+
+比原repo多了几个系统选项, 修复了zygisk不能开启的bug
+
+
+
+
+
 # Remote-Android Script
 
 This script adds Gapps, Magisk and libndk to redroid **without recompiling the entire image**
