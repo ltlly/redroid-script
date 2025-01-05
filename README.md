@@ -1,6 +1,8 @@
 # 省流版
 
-python3 ./redroid.py -a 15.0.0_64only -m
+不写15.0.0_64only 的原因是 zygisk 打不开 
+
+python3 ./redroid.py -a 14.0.0_64only -m
 
 然后docker启动后  设置里面开zygisk 重启即可
 
